@@ -1470,7 +1470,7 @@ input, select, textarea {
 		-moz-user-select: none;
 		-ms-user-select: none;
 		-webkit-user-select: none;
-		background: #4f0b8f;
+		background: #414141;
 		bottom: -1em;
 		height: 5em;
 		left: 0;
@@ -1499,7 +1499,7 @@ input, select, textarea {
 		}
 
 			#header h1 a {
-				color: #f1b7ff;
+				color: #ffffff;
 				border: 0;
 				color: inherit;
 			}
@@ -1545,7 +1545,7 @@ input, select, textarea {
 						}
 						@media(hover: hover) and (pointer: fine) {
 							#header nav > ul > li a:hover {
-								background-color: #29054b !important;
+								background-color: #222222 !important;
 							}
 						}
 
