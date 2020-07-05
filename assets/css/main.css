@@ -1618,6 +1618,7 @@ input, select, textarea {
 			position: relative;
 		}
 
+
 			#main .thumb:after {
 				background-image: -moz-linear-gradient(to top, rgba(10,17,25,0.35) 5%, rgba(10,17,25,0) 35%);
 				background-image: -webkit-linear-gradient(to top, rgba(10,17,25,0.35) 5%, rgba(10,17,25,0) 35%);
@@ -1638,13 +1639,17 @@ input, select, textarea {
 				-webkit-tap-highlight-color: rgba(255, 255, 255, 0);
 				background-position: center;
 				background-repeat: no-repeat;
-				background-size: cover;
+				background-size: 100%;
 				border: 0;
 				height: 100%;
 				left: 0;
 				position: absolute;
 				top: 0;
 				width: 100%;
+				transition: 0.5s;
+			}
+			#main .thumb > .image:hover {
+				background-size: 110%;
 			}
 
 			#main .thumb > h2 {
