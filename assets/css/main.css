@@ -1543,13 +1543,14 @@ input, select, textarea {
 							float: left;
 							margin-right: 0.75em;
 						}
-
-						#header nav > ul > li a:hover {
-							background-color: #29054b !important;
+						@media(hover: hover) and (pointer: fine) {
+							#header nav > ul > li a:hover {
+								background-color: #29054b !important;
+							}
 						}
 
 						#header nav > ul > li a.active {
-							background-color: #47008a;
+							background-color: rgba(36, 38, 41, 0.975);
 						}
 
 	@media screen and (max-width: 736px) {
