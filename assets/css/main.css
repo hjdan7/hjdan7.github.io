@@ -1540,16 +1540,16 @@ input, select, textarea {
 
 						#header nav > ul > li a.icon:before {
 							color: #ffffff;
-							float: right;
-							margin-left: 0.75em;
+							float: left;
+							margin-right: 0.75em;
 						}
 
 						#header nav > ul > li a:hover {
-							color: #ffffff !important;
+							background-color: #29054b !important;
 						}
 
 						#header nav > ul > li a.active {
-							background-color: #4c0094;
+							background-color: #47008a;
 						}
 
 	@media screen and (max-width: 736px) {
